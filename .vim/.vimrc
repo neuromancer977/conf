@@ -17,14 +17,14 @@ set number
 set binary noeol
 set backspace=indent,eol,start
 
-noremap  <Up> ""
-noremap! <Up> <Esc>
-noremap  <Down> ""
-noremap! <Down> <Esc>
-noremap  <Left> ""
-noremap! <Left> <Esc>
-noremap  <Right> ""
-noremap! <Right> <Esc>
+" noremap  <Up> ""
+" noremap! <Up> <Esc>
+" noremap  <Down> ""
+" noremap! <Down> <Esc>
+" noremap  <Left> ""
+" noremap! <Left> <Esc>
+" noremap  <Right> ""
+" noremap! <Right> <Esc>
 
 
 
