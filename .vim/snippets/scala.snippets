@@ -1,0 +1,29 @@
+#ScalaTest
+snippet spec
+	import org.scalatest.Spec
+	import org.scalatest.matchers.ShouldMatchers
+
+	class ${1:`substitute(Filename(), '^.', '\u&', '')`} extends Spec with ShouldMatchers {
+		describe("${2:spec}") {
+			it("should ${3:spec}") {
+			}
+		}
+	}
+
+snippet it
+	it("should ${1:spec}") {
+	}
+	
+snippet desc
+	describe("${1:spec}") {
+		it("should ${2:spec}") {
+		}
+	}
+
+snippet def
+	def ${1:method} = {
+	}
+	
+snippet cla
+	class ${1:`substitute(Filename(), '^.', '\u&', '')`} {
+	}
