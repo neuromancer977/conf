@@ -12,7 +12,7 @@ set ruler
 set nohls
 set incsearch
 set virtualedit=all
-colorscheme ashen
+colorscheme desert 
 set number
 set binary noeol
 set backspace=indent,eol,start
